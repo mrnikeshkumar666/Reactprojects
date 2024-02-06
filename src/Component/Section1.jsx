@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 function Section1() {
@@ -13,8 +14,8 @@ function Section1() {
                     <h1>Best <font color='#1786f5a6'>Pro</font><font color='#6E3FCE'>ducts</font> Accessories</h1>
                     <p>Gaming accessories include gear such as headsets, extra controllers, 
                         charging stations, memory devices, carrying cases and much more.</p>
-                    <button className='bt1'>Show products</button>
-                    <button className='bt2'>Show Collections</button>
+                    <Link to="/all-products"><button className='bt1'>Show products</button></Link>
+                    <Link to="/product-details"><button className='bt2'>Show Collections</button></Link>
                 </div>
             </div>
         </div>

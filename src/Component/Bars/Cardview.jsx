@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Cardview() {
-  return (
+     return (
     <>
        <div className="cardview">
           <div className="container">
@@ -14,17 +14,26 @@ function Cardview() {
                 <h1>Your Cart</h1>
                 <div className="row">
                     <div className="col-9">
-                        <div className="table">
-                            <table>
+                        <table class="table">
+                            <thead>
                                 <tr>
-                                    <th>IMAGE</th>
-                                    <th>NAME</th>
-                                    <th>PRICE</th>
-                                    <th>QUANTITY</th>				
-                                    <th>TOTAL</th>
+                                <th scope="col">IMAGE</th>
+                                <th scope="col">NAME</th>
+                                <th scope="col">PRICE</th>
+                                <th scope="col">QUANTITY</th>
+                                <th scope="col">TOTAL</th>				
                                 </tr>
-                            </table>
-                        </div>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td>1</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div className="col-3">
                         <h5>ORDER SPECIAL INSTRUCTIONS</h5>

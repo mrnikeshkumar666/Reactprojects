@@ -1,0 +1,112 @@
+.Contact{
+    background-color: #000000;
+    .container{
+        .form{
+            position: absolute;
+            width: 670px;
+            height: 549px;
+            margin: -206px 158px 0 573px;
+            h1{
+                background-color: #000000;
+                color: #0A90FB;
+                font-size: 41px;
+                font-weight: 600;  
+                
+            }
+            .row{
+                border: 2px solid #7B35C8;
+                width: 670px;
+                height: 488px;
+                padding-left: 8px;
+                background-color: white;
+                .col{  
+                        label{
+                            margin-top: 22px;
+                        }
+                        input{
+                            margin-top: 10px;
+                            background: none;
+                            outline: none;
+                            padding: 12px 20px;
+                            border: 1px solid #48485B;
+                            width: 301px;
+                            height: 48px;
+                            line-height: 48px;
+                            border-radius: 0 25px;
+                        }
+                }
+                .descript{
+                    textarea{
+                        width: 623px;
+                        height: 162px;
+                        border-radius: 0 25px;
+                    }
+                    
+                }
+                button{
+                    width: 202px;
+                    height: 45px;
+                    background-image: linear-gradient( #0A90FB , #6E3FCE);
+                    border: 0 solid #838383;
+                    border-radius: 0 15px;
+                    color: #E2F3FF;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 8px 0 16px 13px;
+                }
+            }
+
+        }
+        .Backbtn{
+            padding-top: 70px;
+            a{
+                .back{
+                    i{
+                        font-size: 28px;
+
+                    }
+                    span{
+                        font-size: 14px;
+                        padding-left: 10px;  
+                    }
+                } 
+            }
+
+                    h1{
+                        padding-top: 28px;
+                        color: #0A90FB;
+                        font-size: 41px;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: #E2F3FF;
+                        width: 488px;
+                        height: auto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding-bottom: 70px;
+                    }
+               
+        }
+    }
+    
+}
+.address{
+    .box1{
+        padding-top: 60px;
+        h3{
+            font-size: 14px;
+            font-weight: 600;
+            color: #838383;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #838383;
+        }
+    }
+}
+iframe{
+    margin-top: 246px;
+    width: 100%;
+}

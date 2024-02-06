@@ -1,0 +1,57 @@
+.shipping{
+    background-color: #000000;
+    .container{
+        .Backbtn{
+            padding-top: 70px;
+            a{
+                .back{
+                    i{
+                        font-size: 28px;
+        
+                    }
+                    span{
+                        font-size: 14px;
+                        padding-left: 10px;  
+                    }
+                } 
+            }
+        
+                    h1{
+                        padding-top: 28px;
+                        color: #0A90FB;
+                        font-size: 41px;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: #E2F3FF;
+                        width: 488px;
+                        height: auto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding-bottom: 70px;
+                    }
+                } 
+        
+    }
+}
+
+.Delivery{
+    .container{
+        padding: 54px 0 54px 0;
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #838383;
+        }
+        h4{
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .spd{
+            h2{
+                font-size: 41px;
+                font-weight: 600;
+            }  
+        }
+    }
+}

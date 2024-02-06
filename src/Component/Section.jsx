@@ -9,6 +9,11 @@ import Terms from './Bars/Terms'
 import Allcollections from './Bars/Allcollections'
 import Cardview from './Bars/Cardview'
 import Wishlist from './Bars/Wishlist'
+import Faqs from './Bars/Faqs'
+import Login from './Bars/Login'
+import Register from './Bars/Register'
+import Allproducts from './Bars/Allproducts'
+import Prodetails from './Bars/Prodetails'
 
 function Section() {
   return (
@@ -23,6 +28,12 @@ function Section() {
              <Route path="/collect" element={<Allcollections/>}/>
              <Route path="/cartview" element={<Cardview/>}/>
              <Route path="/wishlist" element={<Wishlist/>}/>
+             <Route path="/faqs" element={<Faqs/>}/>
+             <Route path="/login" element={<Login/>}/>
+             <Route path="/register" element={<Register/>}/>
+             <Route path="/all-products" element={<Allproducts/>}/>
+             <Route path="/product-details" element={<Prodetails/>}/>
+
         </Routes>
     </>
   )

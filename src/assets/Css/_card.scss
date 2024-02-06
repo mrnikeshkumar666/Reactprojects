@@ -1,0 +1,70 @@
+.Card{
+    
+    border: 1px solid ;
+    border-color: #1786F5 #6E3FCE #6E3FCE #1786F5;
+    height: 441px;
+    width: 277px;
+    margin: 20px;
+    border-radius: 0 15px ;
+    background-color: #E2F3FF;
+    .cbox{
+        margin-top: 10px;
+        .img{
+            margin-top: 20px;
+            height: 197px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .type{
+            font-size: 14px;
+            font-weight: 450;
+            color: #838383;
+        }
+        label{
+            margin-top: 20px;
+            font-size: small;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        #Color{
+            width: 100%;
+            height: 36px;
+            padding-left: 15px;
+            border-radius: 0 15px;
+            background: none;
+            color: #838383;
+        }
+        .PC{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 23px;
+
+                .price{
+                    width: 85px;
+                    height: 40px;
+                    org{
+                        font-weight: bold;
+                    }
+                    mrp{
+                        font-size: 12px;
+                        color: #838383;
+                    }
+        
+            }
+            button{
+                background-image: linear-gradient( #0A90FB , #6E3FCE);
+                width: 134px;
+                height: 34px;
+                border: 0 solid #838383;
+                border-radius: 0 15px;
+                color: #E2F3FF;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+       
+    }
+}

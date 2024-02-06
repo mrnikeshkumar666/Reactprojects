@@ -1,0 +1,175 @@
+.Prodetails{
+    background-color: black;
+    color: #48485B;
+    .container{
+        a{
+            .back{
+                padding-top: 70px;
+                i{
+                    font-size: 28px;
+    
+                }
+                span{
+                    font-size: 14px;
+                    padding-left: 10px;  
+                }
+            }
+        }
+        .row{
+            .col{
+                .boxd{
+                    width: 400px;
+                    .revew{
+                        margin-top: 20px;
+                    a{
+                        
+                        .star{
+                           font-weight: 400;
+                           font-size: 14px; 
+                        }
+                        .rite{
+                            font-weight: 400;
+                           font-size: 14px; 
+                           color: white;
+                           margin-left:20px ;
+                           span{
+                            padding-left: 10px;
+                            color: #48485B;
+                           }
+                        }
+                    }
+                }
+                .proname{
+                    margin-top: 20px;
+                    h3{
+                        font-size: 41px;
+                        font-weight: 600;
+                    } 
+                    p{
+                        padding-top: 10px;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                    span{
+                        padding-top: 10px;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                .size{
+                    margin-top: 20px;
+                    lable{
+                        color: white; 
+                    }
+                    select{
+                        margin-top: 10px;
+                        width: 400px;
+                        height: 36px;
+                        background: none;
+                        color: #48485B;
+                        padding: 0 15px;
+                        border-radius: 0 15px;
+
+                    }
+                }
+                .priceqt{
+                    margin-top: 20px;
+                    .price{
+                        h4{
+                            font-size: 30px;
+                            font-weight: 600;
+                            color: white;
+                        }
+                        span{
+                            font-size: 14px ;
+                            font-weight: 400;
+                            color: #48485B;
+                        }
+                    }
+                    .quantiti{
+                        .box{
+                            border: 1px solid #48485B;
+                            border-radius: 0 15px;
+                            width: 100px;
+                            height: 30px;
+                        }
+                    }
+                }
+                }
+                .imgrow{
+                    .col{
+                        .img{
+                           
+                            .pic{
+                                position: relative;
+                                width: 60px;
+                                height: 60px;
+                                margin-bottom: 20px;
+                                border-radius: 0 15px;
+                                border: 1px solid;
+                                border-color: #1786F5 #6E3FCE #6E3FCE #1786F5;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit:contain;    
+                                }
+                            
+                            }
+                           
+                        }
+                        
+                    }
+                    .col{
+                        .propic{
+                            width: 490px;
+                            height: 490px;
+                            border-radius: 0 15px;
+                            border: 1px solid;
+                            border-color: #1786F5 #6E3FCE #6E3FCE #1786F5;
+                            img{
+                                width: 470px;
+                                height: 470px;
+                                margin: 10px;
+                                object-fit:contain;    
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .brandwhish{
+            margin-top: 40px;
+            .brand{
+                width: auto;
+                height: 26px;
+                background-image: linear-gradient( #0A90FB , #6E3FCE);
+                border-radius: 15px;
+                color: white;
+                padding: 0 15px 0 15px;
+            }
+            .wish{
+                margin-left: 20px;
+                i{
+                    color: white;
+                }
+                span{
+                    padding-left: 10px;
+                }
+            }
+        }
+        button{
+            background-image: linear-gradient( #0A90FB , #6E3FCE);
+            width: 134px;
+            height: 34px;
+            border: 0 solid #838383;
+            border-radius: 0 15px;
+            color: #E2F3FF;
+            font-size: 14px;
+            font-weight: 400;
+            margin: 20px 0 70px 0;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,77 @@
+.Login{
+    .container{
+        .form{ 
+            width: 700px;
+            height: 536px;
+            margin: 70px 0 70px 25%;
+            
+            .back{
+                h2{
+                    color: #000000;
+                    font-size: 41px;
+                    font-weight: 600;   
+                }
+            }
+            
+            .login{
+                margin-top: 70px;
+                  border: 1px solid black;
+                .box1{
+                    border-bottom: 1px solid #48485B;
+                    padding: 15px 0 10px 25px;
+                    h5{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #48485B;
+                        
+                    }
+                }
+                .massege{  
+                    margin-top: 10px;
+                    border-bottom: 1px solid #48485B;
+                    h6{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #48485B;
+                        padding: 15px 0 10px 25px;
+                    }
+                    .Yemail{ 
+                        padding: 0 0 37px 25px;
+                    }
+                        input{
+                            margin-top: 10px;
+                            background: none;
+                            outline: none;
+                            padding: 12px 20px;
+                            border: 1px solid #48485B;
+                            width: 301px;
+                            height: 48px;
+                            line-height: 48px;
+                            border-radius: 0 25px;
+                        }
+                }
+                .box3{
+                    border-bottom: 1px solid #48485B;
+                    padding: 10px 47px 2px 0;
+                    a{
+                        color: red;
+                        text-decoration: underline;
+                    }
+                }
+                
+                button{
+                    width: 202px;
+                    height: 45px;
+                    background-image: linear-gradient( #0A90FB , #6E3FCE);
+                    border: 0 solid #838383;
+                    border-radius: 0 15px;
+                    color: #E2F3FF;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 8px 0 16px 13px;
+                }
+            }
+
+        }
+    }
+}

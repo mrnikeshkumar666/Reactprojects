@@ -14,9 +14,6 @@ function Section3() {
                     </div>
                     <div className="products d-flex">
                         <Card/>
-                        <Card/>
-                        <Card/>
-                        <Card/>
                     </div>
                 </div>
             </div>

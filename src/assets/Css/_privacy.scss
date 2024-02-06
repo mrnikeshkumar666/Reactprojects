@@ -1,0 +1,69 @@
+.pravacy{
+    background-color: #000000;
+    .container{
+        .Backbtn{
+            padding-top: 70px;
+            a{
+                .back{
+                    i{
+                        font-size: 28px;
+        
+                    }
+                    span{
+                        font-size: 14px;
+                        padding-left: 10px;  
+                    }
+                } 
+            }
+        
+                    h1{
+                        padding-top: 28px;
+                        color: #0A90FB;
+                        font-size: 41px;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: #E2F3FF;
+                        width: 488px;
+                        height: auto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding-bottom: 70px;
+                    }
+                } 
+        
+    }
+}
+.Policy{
+    .container{
+        padding: 54px 0 54px 0;
+        h1{
+            font-size: 41px;
+            font-weight: 600;
+        }
+        h3{
+            font-size: 26px;
+            font-weight: 600;
+            color: #838383;
+        }
+        p1{
+            font-size: 14px;
+            font-weight: bolder;
+            color: #48485B;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #838383;
+            padding-top: 25px;
+        }
+        ul{
+            li{
+                list-style: disc;
+                font-size: 14px;
+                font-weight: 400;
+                color: #838383;
+            }
+        }
+    }
+}

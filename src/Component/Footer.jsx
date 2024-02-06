@@ -32,7 +32,7 @@ function Footer() {
                             <ul>
                                 <Link to="/about"><li>About Us</li></Link>
                                 <Link to="/contact"><li>Contact with us</li></Link>
-                                <Link to=""><li>FAQ's</li></Link>
+                                <Link to="/faqs"><li>FAQ's</li></Link>
                                 <Link to="/privacy"><li>Privacy Policy</li></Link>
                                 <Link to="/shipping"><li>Shipping & Delivery</li></Link>
                                 <Link to="terms"><li>Terms & Conditions</li></Link>

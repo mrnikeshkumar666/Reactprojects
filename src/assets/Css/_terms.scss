@@ -1,0 +1,104 @@
+
+.terms{
+    background-color: #000000;
+    .container{
+        .Backbtn{
+            padding-top: 70px;
+            a{
+                .back{
+                    i{
+                        font-size: 28px;
+        
+                    }
+                    span{
+                        font-size: 14px;
+                        padding-left: 10px;  
+                    }
+                } 
+            }
+        
+                    h1{
+                        padding-top: 28px;
+                        color: #0A90FB;
+                        font-size: 41px;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: #E2F3FF;
+                        width: 488px;
+                        height: auto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding-bottom: 70px;
+                    }
+                } 
+        
+    }
+}
+.conditions{
+   .container{
+        padding: 54px 0 54px 0;
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #838383;
+        }
+        h4{
+            font-size: 22px;
+            font-weight: 600;
+            padding: 10px 0 10px 0;
+        }
+    .tnc{
+        h2{
+            font-size: 41px;
+            font-weight: 600;
+        }
+    }
+
+   }
+}
+//All Collections
+.Collect{
+    .container{
+        padding: 54px 0 54px 0;
+        h2{
+            font-size: 41px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 22px;
+        }
+        .row{
+            .col-4{
+                .img{
+                    margin-left: 27px;
+                    width: 370px;
+                    height: 180px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .items{
+             text-align: center;
+            button{
+                    width: 143px;
+                    height: 40px;
+                    background-image: linear-gradient( #0A90FB , #6E3FCE);
+                    border: 0 solid #838383;
+                    border-radius: 0 15px;
+                    color: #E2F3FF;
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin-bottom: 30px;
+            }
+            h4{
+                padding-top: 14px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #838383;
+            }
+        }  
+    }
+}

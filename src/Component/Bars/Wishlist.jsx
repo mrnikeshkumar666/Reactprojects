@@ -27,16 +27,24 @@ function Wishlist() {
         <div className="list">
             <div className="container">
                 <h1>Wishlist</h1>
-                <div className="table">
-                            <table>
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Details</th>
-                                    <th>Cart Button</th>
-                                    <th>Delete</th>       
-                                </tr>
-                            </table>
-                        </div>
+                <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Details</th>
+                            <th scope="col">Cart Button</th>
+                            <th scope="col">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>1</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            </tr>
+                        </tbody>
+                    </table>
             </div>
         </div>
     </>

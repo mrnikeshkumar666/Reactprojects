@@ -1,0 +1,134 @@
+.header{
+    background-image: url(https://gaming-workdo.myshopify.com/cdn/shop/files/design-circle-1.png?v=1671440643);
+     background-color: #000000;
+     color: #E2F3FF;
+     .mainheader{
+        
+            .nav1{
+                
+                border-bottom: 1px solid #48485B;
+                    .container{
+                        .bars{
+                            padding-top: 15px;
+                            ul{
+                                
+                                li{ 
+                                         margin-left: 30px;
+                                    
+                                        ul{
+                                            margin-top: 21px;
+                                            padding: 8px 55px 15px 0;
+                                            height: auto;
+                                            background-color: #E2F3FF;
+                                            color: #000000;
+                                            display: none;
+                                            position: absolute;
+                                            li{
+                                                a{
+                                                    font-size: 14px;
+                                                    font-weight: 400;
+                                                    color: #000000;
+                                                }
+                                            } 
+                                        }
+                                               
+                                    
+                                }
+                               li:hover >ul{
+                                        
+                                            display: block;
+                               }
+                               
+                            }
+                        }
+                        .logo{
+                            padding-top: 10px;
+                            h1{
+                                color: #6E3FCE;
+                                span{
+                                    color: #0A90FB;
+                                }
+                            }
+                            
+                        }
+                        .cart{ 
+                            padding-top: 10px;
+                        ul{
+                            li{ 
+                                margin-right: 30px;
+                                font-size: 22px;
+                                ul{
+                                    margin-top: 17px;
+                                    padding: 5px 0 10px 15px;
+                                    height: auto;
+                                    background-color: #E2F3FF;
+                                    color: #000000;
+                                    display: none;
+                                    position: absolute;
+                                    li{
+                                        a{
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            color: #000000;
+                                        }
+                                    } 
+                                }
+                                       
+                                
+                            }
+                            li:hover > ul{
+                                display: block;
+                            }
+                        }
+                        }
+                    }
+                    .nav2{
+                        border-top:1px solid #48485B ;
+                        padding: 10px 0  10px 0;
+                .container{
+                    .offer{
+                        margin-top: 10px;
+                        a{
+                            font-size: 14px;
+                            font-weight: 600;
+                            a{
+                                font-size: 14px;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    .search{
+                        border: 1px solid #48485B;
+                        width: 351px;
+                        height: 44px;
+                        line-height: 44px;
+                        border-radius:  0 15px;
+                        i{
+                            padding-left: 15px;
+                        }
+                        #scerch{
+                            width: 290px;
+                            height: 40px;
+                            background:none;
+                            outline: none;
+                            border: 0;
+                            color: #838383;
+                            margin-left: 15px;
+                        }
+                    }
+                    .collection{
+                        margin-top: 10px;
+                        a{
+                           
+                            font-size: 14px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                        }
+                        
+                    }
+                }
+            }
+            }
+            
+     } 
+}

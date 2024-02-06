@@ -1,0 +1,100 @@
+.about{
+    background-color: #000000;
+    .container{
+        padding-top: 60px;
+        .Backbtn{
+            a{
+                .back{
+                    i{
+                        font-size: 28px;
+
+                    }
+                    span{
+                        font-size: 14px;
+                        padding-left: 10px;
+
+                        
+                    }
+                }
+                
+                
+            }
+            h1{
+                padding-top: 28px;
+                color: #0A90FB;
+                font-size: 41px;
+                font-weight: 600;
+            }
+            p{
+                color: #E2F3FF;
+                width: 585px;
+                height: auto;
+                font-size: 14px;
+                font-weight: 400;
+                padding-bottom: 70px;
+            }
+            
+        }
+       
+    }
+}
+.descript{
+    .container{
+        h1{
+            padding-top: 70px;
+            font-size: 41px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #838383;
+        }
+        .box2{
+            h1{
+                text-align: center;
+                font-size: 41px;
+                font-weight: 400;
+            }
+           .container{
+                margin-top: 25px;
+            img{
+                width: 570px;
+                height: 457px;
+            }
+            
+            h2{
+                font-size: 26px;
+                font-weight: 600;
+                padding-top: 100px;
+            }
+           }
+        }
+        .Servies{
+            h1{
+                text-align: center;
+            }
+            .p{
+                margin-left: 207px;
+                width: 900px;
+                
+            }
+            .container{
+                .row{
+                    margin: 60px 0 70px 34px;
+                    gap: 30px;
+                    .col-3{
+                        padding: 15px;
+                        h3{
+                            font-size: 26px;
+                            font-weight: 600;
+                            color: #838383;
+                        }
+                        width: 370px;
+                        border: 1px solid #0A90FB;
+                    }     
+                }
+            }
+        }
+    }
+}
